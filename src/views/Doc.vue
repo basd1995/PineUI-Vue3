@@ -24,7 +24,7 @@ export default {
     Topnav
   },
   setup(){
-    const menuVisible = inject<Ref<boolean>>('xxx')
+    const menuVisible = inject<Ref<boolean>>('menuVisible')
     console.log('menuVisible', menuVisible.value);
     return { menuVisible }
   }
