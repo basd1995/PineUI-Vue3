@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import Switch from '../lib/Siwtch.vue'
+import Switch from '../lib/Switch.vue'
 export default {
   components: {
     Switch
